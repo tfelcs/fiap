@@ -1,0 +1,265 @@
+/*TITULO E FUNDO DA PAGINA*/
+ body {
+    background-color: gainsboro;
+    font-family: helvetica, sans-serif;
+  }
+
+  .title-home {
+    color: blue;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  /*INFO DOLAR*/
+  .dolar-icon-green {
+    color: green; /* Altere para a cor desejada */
+    font-size: 2rem; /* Tamanho do ícone */
+  }
+  /*INFO DESPESA*/
+  .cash-icon-red {
+    color: red; 
+    font-size: 2rem; /* Tamanho do ícone */
+  }
+  /*INFO ECONOMIA*/
+  .slash-icon-aqua {
+    color: brown; 
+    font-size: 2rem; /* Tamanho do ícone */
+  }
+  /*INFO DASH SUPERIOR ENTRADAS*/
+  .entryValue {
+    font-size: 0.8rem;
+    color: darkgreen;
+    font-weight: bold;
+    margin-top: -18px
+  }
+  .entry {
+    font-size: 0.8rem;
+    color: darkgreen;
+    font-weight: bold;
+  }
+  /*INFO DASH SUPERIOR DESPESA*/
+  .costValue {
+    font-size: 0.8rem;
+    color: #DE0000;
+    font-weight: bold;
+    margin-top: -18px
+  }
+  .cost {
+    font-size: 0.8rem;
+    color: #DE0000;
+    font-weight: bold;
+  }
+
+  /*INFO DASH SUPERIOR ECONOMIA*/
+  .econValue {
+    font-size: 0.8rem;
+    color: brown; 
+    font-weight: bold;
+    margin-top: -18px
+  }
+  .econ {
+    font-size: 0.8rem;
+    color: brown; 
+    font-weight: bold; 
+  }
+  
+  .bi-pie-chart-fill {
+    color: #FFCF4D; 
+    font-size: 6rem; 
+    float: center
+  }
+  h3 {
+    font-weight: bold;
+  }
+
+  /* RODAPE */
+  .navbar {
+    background-color: darkgoldenrod;
+    color: #fff;
+    text-align:  center;
+  }
+  /* SCROLL PAGE */
+  .scroll-page {
+    display: contents;
+  }
+  /* TITULO 2º GRAFICO */
+  .texto-pizza {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: blue;
+    text-align: center;
+}
+/*COPIA*/
+  
+  .bi-house {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+  
+  .bi-plus-circle {
+    font-size: 4rem;
+    color: #DCB0FF;
+  }
+  
+  .bi-three-dots {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  } */
+  
+  .categoria {
+    text-align: justify;
+    padding-top: 15px;
+  }
+  .chart-text{
+    text-align: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+  }
+
+  .bi-person-square {
+    font-size: 2rem; 
+    color: #875AC0;
+  }
+ /* Estilo para o cabeçalho */
+ header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: goldenrod;
+    padding: 10px 0;
+    max-height: 90px;
+    margin: 0 auto; /* Centraliza o rodapé na página */
+}
+/* Estilo para os ícones */
+footer .icon-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20%;
+}
+footer .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    text-align: center;
+}
+footer .icon i {
+    font-size: medium; /* Ajuste o tamanho dos ícones conforme necessário */
+    color: #495057;
+    align-items: inherit;
+}
+footer .icon-text {
+    font-size: medium; /* Ajuste o tamanho do texto conforme necessário */
+    color: #495057;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    width: 100%;
+}
+footer .icon-circule-plus {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    text-align: center;
+    color: blue;
+    size: 60px;
+}
+
+/* PAGINA INSERIR DESPESA E RECEITA*/
+.btn-despesa {
+  background-color: #F40707;
+  border-radius: 10px;
+  border-color: #F40707;
+  color: #ffff;
+  padding: 0 0.8rem 0 0.8rem
+}
+
+.container-btn {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-form-despesa {
+  color: #F40707;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffff
+}
+
+.date-picker {
+  position: relative;
+}
+
+/* Estilo para o ícone */
+.calendar-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Evitar interação com o ícone */
+}
+
+/* Estilo para o campo de data */
+.form-control-date {
+  padding-right: 40px; /* Ajuste do espaço para o ícone */
+}
+
+.form-label {
+  display: inline-block;
+  width: 150px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  margin-right: 20px;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+/* PAGINA INSERIR RECEITA*/
+.btn-receita {
+  background-color: green;
+  border-radius: 10px;
+  border-color: green;
+  color: #ffff;
+  padding: 0 0.8rem 0 0.8rem
+}
+
+.container-form-receita {
+  color: green;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffff
+}
